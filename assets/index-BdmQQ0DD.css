@@ -1,0 +1,1 @@
+@tailwind base;@tailwind components;@tailwind utilities;.btn-primary{background-color:#fe4c1c;color:#fff;padding:1.25rem 3rem;border-radius:9999px;font-weight:600;transition:opacity .2s ease}.btn-primary:hover{opacity:.9}
