@@ -1,9 +1,9 @@
 {
-  "name": "my-react-app",
+  "name": "flowreset-landing",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://growthifymedia.github.io/REPO_NAME",
+  "homepage": "https://growthifymedia.github.io/flowreset-landing",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
