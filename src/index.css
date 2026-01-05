@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.btn-primary {
+  background-color: #FE4C1C;
+  color: white;
+  padding: 1.25rem 3rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
