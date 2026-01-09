@@ -1,4 +1,6 @@
 
+import dashboard from "/dashboard.jpeg";
+
 function Signup() {
   return (
     <div className="min-h-screen bg-[#0B0F1A] text-white flex">
@@ -90,19 +92,19 @@ function Signup() {
 
       {/* RIGHT SIDE */}
       <div className="hidden lg:flex w-1/2 bg-[#0E1326]
-                      flex-col justify-center items-center px-16">
+                flex-col justify-center items-center px-16">
 
-        <h2 className="text-4xl font-bold text-center mb-8">
-          Reset Your Workshops Automatically
-        </h2>
+  <h2 className="text-4xl font-bold text-center mb-8">
+    Reset Your Workshops Automatically
+  </h2>
 
-        {/* Dashboard Image Placeholder */}
-        <div className="w-full h-[420px] bg-[#11162A]
-                        border border-white/10 rounded-2xl
-                        flex items-center justify-center text-gray-400">
-          Dashboard Image
-        </div>
-      </div>
+<img
+  src={dashboard}
+  alt="FlowReset Dashboard"
+  className="w-full h-[420px] object-contain bg-[#11162A] rounded-2xl border border-white/10 p-4"
+/>
+
+</div>
 
     </div>
   );
