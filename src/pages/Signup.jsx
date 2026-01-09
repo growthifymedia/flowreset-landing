@@ -97,11 +97,12 @@ function Signup() {
         </h2>
 
         {/* Dashboard Image Placeholder */}
-        <div className="w-full h-[420px] bg-[#11162A]
-                        border border-white/10 rounded-2xl
-                        flex items-center justify-center text-gray-400">
-          Dashboard Image
-        </div>
+<img
+  src="/dashboard.png"
+  alt="FlowReset Dashboard"
+  className="w-full h-[420px] object-cover rounded-2xl border border-white/10"
+/>
+
       </div>
 
     </div>
